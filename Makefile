@@ -11,6 +11,10 @@ server.html:
 build_docker:
 	cat Dockerfile | docker build -t servasm -
 
+.PHONY: test
+test:
+	bash ./test.sh
+
 .PHONY: clean
 clean:
 	rm server server.o server.html

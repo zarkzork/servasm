@@ -11,6 +11,6 @@ ENV LC_ALL C.UTF-8
 
 # Installing ruby
 
-RUN apt-get install -y build-essential nasm ruby ruby-dev python-pygments && gem install rocco
+RUN apt-get install -y build-essential nasm ruby ruby-dev python-pygments && gem install rocco curl
 
 CMD /bin/bash
