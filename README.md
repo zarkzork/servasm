@@ -3,7 +3,7 @@
 Minimal x86_64 Linux-only file webserver, written in assembly language.
 It doesn't allocate any memory, using only stack to serve files.
 
-*Not intented for production use.*
+*Not intended for production use.*
 
 ## How it works:
 
